@@ -63,7 +63,7 @@ cp .env.example .env
    cd backend 
    uvicorn src.main:app --reload
    
-   # Terminal 2 - Frontend
+   # Terminal 2 - Frontend (From Backend Directry)
    streamlit run ../frontend/app.py
    ```
 
